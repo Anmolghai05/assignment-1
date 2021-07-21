@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>This is Time Table</h2>
+    <div class="container">
+    
+    <table border="5" cellspacing="12" cellpadding="8">
+        <tr>
+            <th>Periods/Days</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th></th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+        </tr><br>
+        <tr>
+            <td>mon</td>
+            <td>sci</td>
+            <td>eng</td>
+            <td>hindi</td>
+            <td rowspan="6">
+                <center>B<br>R<br>E<br>A<br>k</center>
+            </td>
+            <td>maths</td>
+            <td>games</td>
+            <td>moral science</td>
+        </tr><br>
+        <tr>
+            <td>tue</td>
+            <td>sci</td>
+            <td>eng</td>
+            <td>hindi</td>
+            <td>maths</td>
+            <td>games</td>
+            <td>moral science</td>
+        </tr><br>
+        <tr>
+            <td>WED</td>
+            <td>sci</td>
+            <td>eng</td>
+            <td rowspan="3"><center>H<br>I<br>N<br>D<br>I</center>
+            </td>
+            <td>maths</td>
+            <td>games</td>
+            <td>moral science</td>
+        </tr><br>
+        <tr>
+            <td>THU</td>
+            <td>sci</td>
+            <td>eng</td>
+            <td>maths</td>
+            <td>games</td>
+            <td>moral science</td>
+        </tr><br>
+        <tr>
+            <td>FRI</td>
+            <td>sci</td>
+            <td>eng</td>
+            <td>maths</td>
+            <td>games</td>
+            <td>moral science</td>
+        </tr><br>
+        <tr>
+            <td>SAT</td>
+            <td>sci</td>
+            <td>eng</td>
+            <td>hindi</td>
+            <td colspan="3">maths</td>
+
+        </tr><br>
+        <tr>
+            <th colspan="8"><center>THIS IS CLASS VIII</th></center>
+        </tr>
+
+    </table>
+    </div>
+    
+
+    <h1>My BioData</h1>
+    <fieldset>
+        <legend> Personal Information </legend>
+        <hr>
+        <label>Firstname:</label>
+        <input type="text" name="firstname" placeholder="enter first name">
+        <label>Last name:</label>
+        <input type="text" name="lastname" placeholder="enter last name"><br><br>
+        <label>Emailid:</label>
+        <input type="email" name="email" placeholder="enter your mail id"><br><br>
+        <label>Phone:</label>
+        <input type="tel" name="phone" placeholder="+91"><br><br>
+        male:<input type="radio" name="gender">
+        female:<input type="radio" name="gender">
+        other:<input type="radio" name="gender"><br><br>
+        <label>Height:</label>
+        <input type="text" name="height" placeholder="Height in Feet"><br><br>
+        <label>DOB:</label>
+        <input type="date">
+    </fieldset>
+
+    <fieldset>
+        <legend>Education</legend>
+        <hr>
+        <label>SchoolName:</label>
+        <input type="text" name="SchoolName" placeholder="SchoolName"><br><br>
+        <label>Class:</label>
+        <input type="text" name="class" placeholder="Class"><br><br>
+        <label>Stream:</label>
+        <select id="stream" name="stream">
+            <option value="Stream">Stream</option>
+            <option value="Science">Science</option>
+            <option value="Commerce">Commerce</option>
+            <option value="humanities">Humanities</option>
+        </select>
+        <br><br>
+        <label>Marksheet:</label>
+        <input type="file" name="upload marksheet">
+
+    </fieldset>
+    <br>
+
+    <input type="submit" value="submit">
+    <input type="reset">
+
+
+
+
+</body>
+
+</html>
